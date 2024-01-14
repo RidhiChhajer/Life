@@ -1,0 +1,16 @@
+.Navbar {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    .Signin {
+        color: #B25E02;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 21px; /* 80.769% */
+        border-width: 0;
+        background-color: #fff;
+        margin: 20px;
+    }
+}
