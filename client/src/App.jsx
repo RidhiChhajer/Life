@@ -1,5 +1,4 @@
 import "./App.css";
-import Navbar from "./Layout/navbar/Navbar";
 import Home from "./page/home/Home";
 import TaskTree from "./page/tasktree/TaskTree";
 import SignIn from "./page/signin/SignIn";
@@ -12,7 +11,6 @@ function App() {
 
     <Router>
     <div className="App">
-      <Navbar/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/tasktree" element={<TaskTree />} />

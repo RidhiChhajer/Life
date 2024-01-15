@@ -1,0 +1,12 @@
+/* Vector3.css */
+.Vector3 {
+    position: absolute;
+    top: 100px;
+    left: 1050px;
+    z-index: 1;
+}
+
+.Vector3 .vector {
+    height: 700px;
+    width: 404px;
+}

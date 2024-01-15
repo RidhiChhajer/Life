@@ -6,11 +6,13 @@ import Feature from "../../components/feature/Feature";
 import feature1 from "../../assets/feature1.png";
 import feature2 from "../../assets/feature2.png";
 import feature3 from "../../assets/feature3.png";
-import sideImage2 from "../../assets/side-image2.png"
+import sideImage2 from "../../assets/side-image2.png";
+import Navbar from "../../Layout/navbar/Navbar";
 
 const Home = () => {
   return (
     <div className="Home">
+      <Navbar/>
       <div className="Wrap1">
         <div className="Intro">
           <h1>

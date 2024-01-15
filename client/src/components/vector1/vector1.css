@@ -1,0 +1,12 @@
+/* Vector1.css */
+.Vector1 {
+    position: absolute;
+    top: -10px;
+    left: 0;
+    z-index: 1;
+}
+
+.Vector1 .vector {
+    height: 443px;
+    width: 800px;
+}
